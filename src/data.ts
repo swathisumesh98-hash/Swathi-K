@@ -1,0 +1,132 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { LabTest } from "./types";
+
+export const CLINICAL_LAB_TESTS: LabTest[] = [
+  {
+    id: "fbc",
+    name: "Full Body Checkup",
+    category: "General",
+    price: 500,
+    code: "BT-200",
+    description: "Our comprehensive healthcare suite covering glucose levels, lipid profile metrics, basic blood cell counts, and metabolic indicators.",
+    sampleType: "Blood & Urine",
+    fastingRequired: true,
+    eta: "12 Hours",
+  },
+  {
+    id: "cbc",
+    name: "Complete Blood Count (CBC)",
+    category: "General",
+    price: 200,
+    code: "BT-101",
+    description: "Evaluates your overall health and detects a wide range of disorders, including anemia, infection, and leukemia.",
+    sampleType: "Blood (EDTA)",
+    fastingRequired: false,
+    eta: "4 Hours",
+  },
+  {
+    id: "hba1c",
+    name: "HbA1c (Glycated Haemoglobin)",
+    category: "Metabolic",
+    price: 380,
+    code: "BT-108",
+    description: "Reflects your average blood sugar levels over the past 2 to 3 months to monitor and diagnose diabetes status.",
+    sampleType: "Blood (Whole)",
+    fastingRequired: false,
+    eta: "4 Hours",
+  },
+  {
+    id: "lipid",
+    name: "Lipid Profile (Cholesterol Panel)",
+    category: "Cardiac",
+    price: 280,
+    code: "BT-102",
+    description: "Measures Total Cholesterol, HDL, LDL, and Triglycerides to assess cardiovascular health and thrombosis risk.",
+    sampleType: "Blood (Serum)",
+    fastingRequired: true,
+    eta: "6 Hours",
+  },
+  {
+    id: "tft",
+    name: "Thyroid Function Test (T3, T4, TSH)",
+    category: "Thyroid",
+    price: 380,
+    code: "BT-105",
+    description: "Measures endocrine hormones to determine if thyroid activity is standard, hypo-active, or hyper-active.",
+    sampleType: "Blood (Serum)",
+    fastingRequired: false,
+    eta: "8 Hours",
+  },
+  {
+    id: "lft",
+    name: "Liver Function Test (LFT)",
+    category: "Liver",
+    price: 380,
+    code: "BT-104",
+    description: "Measures Bilirubin, SGOT, SGPT, Alkaline Phosphatase, and Albumin to evaluate hepatic tissue health.",
+    sampleType: "Blood (Serum)",
+    fastingRequired: false,
+    eta: "8 Hours",
+  },
+  {
+    id: "kft",
+    name: "Kidney / Renal Function Test (KFT/RFT)",
+    category: "Kidney",
+    price: 280,
+    code: "BT-103",
+    description: "Analyzes Blood Urea, Serum Creatinine, Uric Acid, Serum Electrolytes to determine renal filtration and safety.",
+    sampleType: "Blood & Urine",
+    fastingRequired: false,
+    eta: "8 Hours",
+  },
+  {
+    id: "fbs",
+    name: "Fasting Blood Sugar & PPBS",
+    category: "Metabolic",
+    price: 30,
+    code: "BT-106",
+    description: "Measures glucose levels under absolute fasting conditions and 2 hours post-meals to evaluate glycemic control.",
+    sampleType: "Blood (Plasma)",
+    fastingRequired: true,
+    eta: "3 Hours",
+  },
+  {
+    id: "troponin",
+    name: "Troponin I - Cardiac Marker",
+    category: "Cardiac",
+    price: 1200,
+    code: "BT-112",
+    description: "Critical biomarker to detect myocardial injury or distress. Available for emergency testing with quick processing.",
+    sampleType: "Blood (Serum)",
+    fastingRequired: false,
+    eta: "2 Hours",
+  },
+];
+
+export const SERVICE_DETAILS = {
+  address: "MK Complex, First Floor, Madiyan, Manikoth, Kerala, 671316",
+  landmark: "Opposite Madiyan Temple Road, Manikoth",
+  phone: "+91 95677 84744",
+  secondaryPhone: "+91 62822 88980",
+  email: "info@madiyanbiotech.com",
+  timings: "Monday - Saturday: 6:00 AM - 8:00 PM | Sunday: 6:00 AM - 1:00 PM",
+};
+
+export const NEBULIZATION_INFO = {
+  benefits: [
+    "Delivers medication directly into the lungs for rapid, immediate bronchial relief.",
+    "Highly recommended for acute asthma attacks, COPD flareups, and pediatric respiratory distress.",
+    "Using clinical-grade, modern ultrasonic and compressor nebulizers at our healthcare lounge.",
+    "Equipped with separate, sterile pediatric and adult mask kits to ensure extreme hygiene safety.",
+  ],
+  indications: [
+    "Acute Bronchospasms / Wheezing",
+    "Asthma & Respiratory Conjunctivitis",
+    "Severe Cough & Laryngeal Congestion",
+    "Post-infectious airways hyper-responsiveness",
+  ],
+};

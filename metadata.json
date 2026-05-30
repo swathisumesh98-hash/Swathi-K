@@ -1,0 +1,6 @@
+{
+  "name": "Madiyan Biotech",
+  "description": "High-tech clinical diagnostics, home sample collection, ECG, nebulization, and AI lab analysis in MK Complex, Madiyan, Manikoth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
